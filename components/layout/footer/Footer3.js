@@ -32,7 +32,7 @@ export default function Footer3({ }) {
                                         <div className="input_group">
                                             <form method="post">
                                                 <div className="mc4wp-form-fields">
-                                                    <input type="email" name="EMAIL" placeholder="Your email address" required />
+                                                    <input type="number" name="MOBILE" placeholder="Your mobile number" required />
                                                     <input type="submit" value="Sign up" />
                                                 </div>
                                             </form>

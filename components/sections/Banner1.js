@@ -27,7 +27,7 @@ export default function Banner1() {
                                 <div className="newsteller_simple">
                                     <div className="input_group">
                                         <form method="post">
-                                            <input type="email" name="EMAIL" placeholder="Your email address" required />
+                                            <input type="number" name="MOBILE" placeholder="Your mobile number" required />
                                             <input type="submit" value="Sign up" />
                                         </form>
                                     </div>

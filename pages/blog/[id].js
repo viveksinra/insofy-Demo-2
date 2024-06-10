@@ -289,7 +289,7 @@ const BlogDetails = () => {
                                                                         </small>
                                                                         </h3>
                                                                         <form action="#" method="post" id="commentform" className="comment-form">
-                                                                            <p className="title_para">Your email address will not be published. </p>
+                                                                            <p className="title_para">Your mobile number will not be published. </p>
                                                                             <p className="comment-form-comment">
                                                                                 <label>Leave a Reply</label>
                                                                                 <textarea placeholder="Write your comment here..." id="commenttextarea" name="comment" rows={12} aria-required="true" />

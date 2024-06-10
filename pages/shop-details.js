@@ -128,7 +128,7 @@ export default function ShopDetails() {
                                                         <div id="respond" className="comment-respond">
                                                             <form action="#" method="post" className="comment-form">
                                                                 <p className="comment-notes mr_bottom_20">
-                                                                    <span id="email-notes">Your email address will not be published.</span>
+                                                                    <span id="email-notes">Your mobile number will not be published.</span>
                                                                     <span className="required-field-message">Required fields are marked <span className="required">*</span>
                                                                     </span>
                                                                 </p>
