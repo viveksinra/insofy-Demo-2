@@ -265,13 +265,13 @@ export default function Footer1({ }) {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                                 <div className="footer_widgets_box pd_bottom_30">
                                     <div className="fwidget_title">
-                                        <h2 className="title color_white"> Photo Gallery </h2>
+                                        {/* <h2 className="title color_white"> Photo Gallery </h2> */}
                                         {/*-============spacing==========-*/}
                                         <div className="pd_bottom_25" />
                                         {/*-============spacing==========-*/}
                                     </div>
                                     <div className="g_box d-flex">
-                                        <Link className="trans" href="#">
+                                        {/* <Link className="trans" href="#">
                                             <img src="/assets/images/portfolio/project-1-min.png" alt="img" className="img-fluid" />
                                             <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <circle cx={28} cy={27} r={20} fill="white" />
@@ -351,7 +351,7 @@ export default function Footer1({ }) {
                                                 </circle>
                                                 <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                             </svg>
-                                        </Link>
+                                        </Link> */}
                                     </div>
                                 </div>
                             </div>
