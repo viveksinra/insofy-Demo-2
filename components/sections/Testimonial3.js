@@ -21,7 +21,7 @@ export default function Testimonial3() {
         <>
             <section className="testimonial-section position-relative bg_light_2 bg_op_6" style={{ backgroundImage: 'url(assets/images/map-frame-2.png)!important' }}>
                 {/*-============spacing==========-*/}
-                <div className="pd_top_320" />
+                <div className="pd_top_20" />
                 {/*-============spacing==========-*/}
                 <div className="medium-container">
                     <div className="row">
@@ -29,8 +29,7 @@ export default function Testimonial3() {
                             <div className="section_title text-center type_five">
                                 <h4 className="sm_title"> Clients Testimonials</h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> What Our Customer Say <br />
-                                        About Our Insurance</h2>
+                                    <h2 className="title"> Our Partners Speak For Us</h2>
                                 </div>
                             </div>
                         </div>

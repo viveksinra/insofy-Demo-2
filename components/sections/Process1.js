@@ -15,9 +15,9 @@ export default function Process1() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section_title text-center type_one">
-                                <h4 className="sm_title"> Get In Touch</h4>
+                                <h4 className="sm_title"> Become A POSP Partner</h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> Easy Way to Get Our Popular <br /> Insurance Services</h2>
+                                    <h2 className="title"> How It Works</h2>
                                 </div>
                             </div>
                         </div>
@@ -41,10 +41,11 @@ export default function Process1() {
                                     </div>
                                     <div className="title_22">
                                         <Link href="#">
-                                            Choose Insurance </Link>
+                                        Partner with us</Link>
                                     </div>
-                                    <p>Sed ut perspiciatis unde omnis
-                                        este natus voluptatem accusantium doloremque laudante aperis</p>
+                                    <p>Fill up the simple one-time form and you are set to go with the best earnings & benefits on offer!
+
+</p>
                                     <div className="border_bg" />
                                 </div>
                             </div>
@@ -61,10 +62,11 @@ export default function Process1() {
                                     </div>
                                     <div className="title_22">
                                         <Link href="#">
-                                            Meet With Agent </Link>
+                                        Expand your network & start earning </Link>
                                     </div>
-                                    <p>Sed ut perspiciatis unde omnis
-                                        este natus voluptatem accusantium doloremque laudante aperis</p>
+                                    <p>We're here to simplify the process for you as a leading insurance broker!
+
+</p>
                                     <div className="border_bg" />
                                 </div>
                             </div>
@@ -84,10 +86,11 @@ export default function Process1() {
                                     </div>
                                     <div className="title_22">
                                         <Link href="#">
-                                            Get Insurance </Link>
+                                        Earn good commission </Link>
                                     </div>
-                                    <p>Sed ut perspiciatis unde omnis
-                                        este natus voluptatem accusantium doloremque laudante aperis</p>
+                                    <p>Make more money per insurance policy! Too good to be true? Speak to our experts to know how!
+
+</p>
                                     <div className="border_bg" />
                                 </div>
                             </div>
@@ -95,7 +98,8 @@ export default function Process1() {
                     </div>
                 </div>
                 {/*-============spacing==========-*/}
-                <div className="pd_bottom_30" />
+    
+                <div className="pd_bottom_10" />
                 {/*-============spacing==========-*/}
             </section>
 

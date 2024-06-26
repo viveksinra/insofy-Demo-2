@@ -6,7 +6,7 @@ export default function Service6() {
         <>
             <section className="service bg_light_2 bg_op_4" style={{ backgroundImage: 'url(assets/images/about-dot-bg.png)!important' }}>
                 {/*-============spacing==========-*/}
-                <div className="pd_top_80" />
+                <div className="pd_top_50" />
                 {/*-============spacing==========-*/}
                 <div className="container">
                     <div className="row">
@@ -122,7 +122,7 @@ export default function Service6() {
                 
                 </div>
                 {/*-============spacing==========-*/}
-                <div className="pd_bottom_80" />
+                <div className="pd_bottom_50" />
                 {/*-============spacing==========-*/}
             </section>
 

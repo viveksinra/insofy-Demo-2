@@ -56,7 +56,7 @@ export default function Client2() {
         <>
             <section className="client-section">
                 {/*-============spacing==========-*/}
-                <div className="pd_top_90" />
+                <div className="pd_top_20" />
                 {/*-============spacing==========-*/}
                 <div className="container-fluid">
                     <div className="row">
