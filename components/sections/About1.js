@@ -16,7 +16,7 @@ export default function About1() {
                 <div className="ab_img_left_bottom z_minus_1">
                     <img src="/assets/images/bg-1.png" className="img-fluid" alt="img" />
                 </div>
-                <div className="large-container">
+                <div className="medium-container">
                     <div className="row align-items-start">
                         <div className="col-lg-5 col-md-5 col-sm-12">
                             <div className="image_box">
