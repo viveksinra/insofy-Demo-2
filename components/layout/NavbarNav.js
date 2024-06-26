@@ -6,11 +6,11 @@ export default function NavbarNav() {
         <>
 
             <ul className="navbar_nav">
-                <li className="menu-item nav-item menu-item-has-children dropdown mennucolumn_full-six">
+                {/* <li className="menu-item nav-item menu-item-has-children dropdown mennucolumn_full-six">
                     <Link href="/" className="nav_link">
                         <span className="text-link"> Home </span>
                     </Link>
-                    {/* <ul className="sub_menu">
+                    <ul className="sub_menu">
                         <li className="menu-item nav-item vankine_menu_image">
                             <Link href="/" className="nav_link image_big_on_menu_two">
                                 <span className="img-link">
@@ -59,7 +59,7 @@ export default function NavbarNav() {
                                 <span className="text-link"> Home 6 </span>
                             </Link>
                         </li>
-                    </ul> */}
+                    </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
                 </li>
                 <li className="menu-item  menu-item-has-children dropdown  mennucolumn_ nav-item">
@@ -165,8 +165,8 @@ export default function NavbarNav() {
                         </li>
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
-                </li>
-                <li className="menu-item  menu-item-has-children dropdown  mennucolumn_  nav-item">
+                </li> */}
+                {/* <li className="menu-item  menu-item-has-children dropdown  mennucolumn_  nav-item">
                     <Link href="#" className="nav_link">
                         <span className="text-link">
                             Portfolio
@@ -196,8 +196,8 @@ export default function NavbarNav() {
                         </li>
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
-                </li>
-                <li className="menu-item  menu-item-has-children dropdown  mennucolumn_two   nav-item">
+                </li> */}
+                {/* <li className="menu-item  menu-item-has-children dropdown  mennucolumn_two   nav-item">
                     <Link href="/blog" className="nav_link">
                         <span className="text-link">
                             Blog
@@ -263,7 +263,7 @@ export default function NavbarNav() {
                         </li>
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
-                </li>
+                </li> */}
                 {/* <li className="menu-item  menu-item-has-children dropdown  mennucolumn_  nav-item">
                     <Link href="/shop" className="nav_link">
                         <span className="text-link">
@@ -310,9 +310,23 @@ export default function NavbarNav() {
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
                 </li> */}
                 <li className="menu-item  nav-item">
+                    <Link href="/about-us" className="nav_link">
+                        <span className="text-link">
+                            About Us
+                        </span>
+                    </Link>
+                </li>
+                <li className="menu-item  nav-item">
                     <Link href="/contact" className="nav_link">
                         <span className="text-link">
-                            Contact
+                            Contact Us
+                        </span>
+                    </Link>
+                </li>
+                <li className="menu-item  nav-item">
+                    <Link href="/contact" className="nav_link">
+                        <span className="text-link">
+                            Login
                         </span>
                     </Link>
                 </li>

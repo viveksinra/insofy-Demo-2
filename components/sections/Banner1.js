@@ -14,15 +14,12 @@ export default function Banner1() {
                                 <div className="section_title type_one">
                                     <div className="title_whole">
                                         <h2 className="title">
-                                            Put your insurance
-                                            lead generation on
-                                            autopilot
+                                        Partner With Us,
+                                        Grow Your Insurance
+                                        Business Today
                                         </h2>
                                     </div>
-                                    <p>
-                                        Sit amet consectetur volutpat luctus ultrices sagittis justo. Integer
-                                        nibh nisi adipiscingrna eleifend nunc consecteture
-                                    </p>
+                               
                                 </div>
                                 <div className="newsteller_simple">
                                     <div className="input_group">
@@ -44,8 +41,7 @@ export default function Banner1() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-1" />
-                            <div className="col-lg-6">
+                            <div className="col-lg-7">
                                 <div className="image">
                                     <img src="/assets/images/slider/banner-single-4-1.jpg" className="img-fluid" alt="img" />
                                 </div>

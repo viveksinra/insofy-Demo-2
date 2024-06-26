@@ -14,8 +14,7 @@ export default function Service6() {
                             <div className="section_title text-center type_five">
                                 <h4 className="sm_title"> Why Choose Us</h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> Build Up Your Professional <br />
-                                        Insurance Policy</h2>
+                                    <h2 className="title"> Advantages with BimaGuide POSP</h2>
                                 </div>
                             </div>
                             {/*-============spacing==========-*/}
@@ -31,8 +30,7 @@ export default function Service6() {
                                         <div className="icon trans">
                                             <i className=" flaticon-salary trans" /></div>
                                         <div className="title_22">
-                                            <Link href="/service">Easy
-                                                System &amp; Trusted, Save your Money
+                                            <Link href="/service">Timely Payouts
                                             </Link>
                                         </div>
                                     </div>
@@ -47,10 +45,9 @@ export default function Service6() {
                                     </Link>
                                     <div className="content">
                                         <p className="trans">
-                                            Sit amet consectetur adipiscing elites varius montes, massa blandit
-                                            orci.</p>
+                                        Say goodbye to long waits for payments on policy issuance! With us, get TIMELY PAYOUT</p>
                                         <Link href="/service" className="theme_btn">
-                                            Read More <svg width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            Start Earning Now <svg width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 11L11 1L1 11ZM11 1H3.5H11ZM11 1V8.5V1Z" fill="#696E77">
                                                 </path>
                                                 <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="#696E77" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -65,8 +62,7 @@ export default function Service6() {
                                         <div className="icon trans">
                                             <i className=" flaticon-management trans" /></div>
                                         <div className="title_22">
-                                            <Link href="/service">Dedicated
-                                                Customer Support Team Member</Link></div>
+                                            <Link href="/service">Fully Digital Process</Link></div>
                                     </div>
                                     <Link href="/service" className="img_bx">
                                         <div className="image trans hover_1">
@@ -79,10 +75,10 @@ export default function Service6() {
                                     </Link>
                                     <div className="content">
                                         <p className="trans">
-                                            Sit amet consectetur adipiscing elites varius montes, massa blandit
-                                            orci.</p>
+                                        No middlemen, no hidden charges - what you deserve is what you get! View & track your payments with your unique ID!</p>
                                         <Link href="/service" className="theme_btn">
-                                            Read More <svg width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            Sign Up
+                                            <svg width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 11L11 1L1 11ZM11 1H3.5H11ZM11 1V8.5V1Z" fill="#696E77">
                                                 </path>
                                                 <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="#696E77" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -97,8 +93,7 @@ export default function Service6() {
                                         <div className="icon trans">
                                             <i className=" flaticon-business-trip trans" /></div>
                                         <div className="title_22">
-                                            <Link href="/service">Corporate
-                                                Professional Insurance Liability</Link></div>
+                                            <Link href="/service">Dedicated Support</Link></div>
                                     </div>
                                     <Link href="/service" className="img_bx">
                                         <div className="image trans hover_1">
@@ -111,10 +106,9 @@ export default function Service6() {
                                     </Link>
                                     <div className="content">
                                         <p className="trans">
-                                            Sit amet consectetur adipiscing elites varius montes, massa blandit
-                                            orci.</p>
+                                        Stuck somewhere? No worries! Our dedicated support team is there to help you-wherever, whenever!</p>
                                         <Link href="/service" className="theme_btn">
-                                            Read More <svg width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            Register With Us <svg width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 11L11 1L1 11ZM11 1H3.5H11ZM11 1V8.5V1Z" fill="#696E77">
                                                 </path>
                                                 <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="#696E77" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

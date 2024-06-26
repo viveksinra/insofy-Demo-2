@@ -35,7 +35,7 @@ export default function Header4({ handleSearch, handleOptionalPanel, handleMobil
                                         {/*menu icon*/}
                                         <div className="button">
                                             <Link href="#" className="theme_btn">
-                                                Get A Quote
+                                                Sign Up
                                                 <svg width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                 </svg>
