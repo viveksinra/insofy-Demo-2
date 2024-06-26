@@ -310,21 +310,21 @@ export default function NavbarNav() {
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
                 </li> */}
                 <li className="menu-item  nav-item">
-                    <Link href="/about-us" className="nav_link">
+                    <Link href="#" className="nav_link">
                         <span className="text-link">
                             About Us
                         </span>
                     </Link>
                 </li>
                 <li className="menu-item  nav-item">
-                    <Link href="/contact" className="nav_link">
+                    <Link href="#" className="nav_link">
                         <span className="text-link">
                             Contact Us
                         </span>
                     </Link>
                 </li>
                 <li className="menu-item  nav-item">
-                    <Link href="/contact" className="nav_link">
+                    <Link href="#" className="nav_link">
                         <span className="text-link">
                             Login
                         </span>

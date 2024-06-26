@@ -62,10 +62,8 @@ export default function Client2() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section_title text-center type_four">
-                                <h4 className="sm_title"> Popular Global Clients</h4>
-                                <div className="title_whole">
-                                    <h2 className="title"> We’ve 1520+Global Premium Clients</h2>
-                                </div>
+                                <h4 className="sm_title"> OUR INSURANCE PARTNERS</h4>
+                             
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_40" />
                                 {/*-============spacing==========-*/}

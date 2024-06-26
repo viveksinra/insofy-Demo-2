@@ -1,87 +1,79 @@
-import { Autoplay, Navigation, Pagination } from "swiper"
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper.min.css";
+import "swiper/swiper-bundle.min.css";
+import { css } from '@emotion/react';
+import { useEffect } from "react";
 
-const swiperOptions = {
-    modules: [Autoplay, Pagination, Navigation],
-    slidesPerView: 6,
-    spaceBetween: 30,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    loop: true,
-
-    // Navigation
-    navigation: {
-        nextEl: '.h1n',
-        prevEl: '.h1p',
-    },
-
-    // Pagination
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-
-    breakpoints: {
-        320: {
-            slidesPerView: 1,
-            spaceBetween: 30,
-        },
-        575: {
-            slidesPerView: 3,
-            spaceBetween: 30,
-        },
-        767: {
-            slidesPerView: 4,
-            spaceBetween: 30,
-        },
-        991: {
-            slidesPerView: 5,
-            spaceBetween: 30,
-        },
-        1199: {
-            slidesPerView: 6,
-            spaceBetween: 30,
-        },
-        1350: {
-            slidesPerView: 6,
-            spaceBetween: 30,
-        },
+// Define the CSS using Emotion
+const styles = `
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
     }
-}
-export default function ClientSlider() {
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .slider-container {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .slider-wrapper {
+    display: flex;
+    width: 200%; /* To account for the duplicate slides */
+    animation: scroll 20s linear infinite;
+  }
+
+  .slide {
+    flex: 0 0 auto;
+    width: 16.6667%; /* 1/6th of the container width */
+    box-sizing: border-box;
+  }
+
+  .img-fluid {
+    width: 50%;
+    height: auto;
+    display: block;
+  }
+`;
+
+
+
+const clients = [
+    "/assets/images/client-1.png",
+    "/assets/images/client-2.png",
+    "/assets/images/client-3.png",
+    "/assets/images/client-4.png",
+    "/assets/images/client-5.png",
+    "/assets/images/client-6.png",
+    "/assets/images/client-1.png", // Duplicate for seamless looping
+    "/assets/images/client-2.png", // Duplicate for seamless looping
+    "/assets/images/client-3.png", // Duplicate for seamless looping
+    "/assets/images/client-4.png", // Duplicate for seamless looping
+    "/assets/images/client-5.png", // Duplicate for seamless looping
+    "/assets/images/client-6.png"  // Duplicate for seamless looping
+  ];
+  
+  export default function ClientSlider() {
+    useEffect(() => {
+      // Append styles to the head
+      const styleSheet = document.createElement("style");
+      styleSheet.type = "text/css";
+      styleSheet.innerText = styles;
+      document.head.appendChild(styleSheet);
+    }, []);
+  
     return (
-        <>
-            <Swiper {...swiperOptions} className="theme_carousel ">
-                <SwiperSlide className="image">
-                    <img src="/assets/images/client-1.png" className="img-fluid w_auto m-auto" alt="img" />
-                </SwiperSlide>
-                <SwiperSlide className="image">
-                    <img src="/assets/images/client-2.png" className="img-fluid w_auto m-auto" alt="img" />
-                </SwiperSlide>
-                <SwiperSlide className="image">
-                    <img src="/assets/images/client-3.png" className="img-fluid w_auto m-auto" alt="img" />
-                </SwiperSlide>
-                <SwiperSlide className="image">
-                    <img src="/assets/images/client-4.png" className="img-fluid w_auto m-auto" alt="img" />
-                </SwiperSlide>
-                <SwiperSlide className="image">
-                    <img src="/assets/images/client-5.png" className="img-fluid w_auto m-auto" alt="img" />
-                </SwiperSlide>
-                <SwiperSlide className="image">
-                    <img src="/assets/images/client-6.png" className="img-fluid w_auto m-auto" alt="img" />
-                </SwiperSlide>
-                <SwiperSlide className="image">
-                    <img src="/assets/images/client-4.png" className="img-fluid w_auto m-auto" alt="img" />
-                </SwiperSlide>
-                <SwiperSlide className="image">
-                    <img src="/assets/images/client-5.png" className="img-fluid w_auto m-auto" alt="img" />
-                </SwiperSlide>
-                <SwiperSlide className="image">
-                    <img src="/assets/images/client-6.png" className="img-fluid w_auto m-auto" alt="img" />
-                </SwiperSlide>
-            </Swiper>
-        </>
-    )
-}
+      <div className="slider-container">
+        <div className="slider-wrapper">
+          {clients.map((client, index) => (
+            <div className="slide" key={index}>
+              <img src={client} className="img-fluid" alt={`Client ${index + 1}`} />
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
