@@ -119,16 +119,7 @@ export default function Service6() {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-12 text-center">
-                            <div className="position-relative position_p_relative">
-                                <div className="d-flex justify-content-center align-items-center">
-                                    <img src="/assets/images/notification-1.png" className="img-fluid" alt="notification" /> Need Any Insurance Information Or Create Your
-                                    Account?
-                                    <Link className="rd_more" style={{ marginLeft: 10 }} href="#">Contact Us</Link></div>
-                            </div>
-                        </div>
-                    </div>
+                
                 </div>
                 {/*-============spacing==========-*/}
                 <div className="pd_bottom_80" />

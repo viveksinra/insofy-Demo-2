@@ -12,6 +12,8 @@ import Client5 from "@/components/sections/Client5"
 import Content5 from "@/components/sections/Content5"
 import Form3 from "@/components/sections/Form3"
 import Funfacts2 from "@/components/sections/Funfacts2"
+import Process1 from "@/components/sections/Process1"
+import Process2 from "@/components/sections/Process2"
 import Process3 from "@/components/sections/Process3"
 import Service6 from "@/components/sections/Service6"
 import Service7 from "@/components/sections/Service7"
@@ -30,11 +32,12 @@ export default function Home4() {
                 {/* <About3 /> */}
                 {/* <Service7 /> */}
                 {/* <Content5 /> */}
-                <Process3 />
-                <Funfacts2 />
+                <Process1 />
+                {/* <Process2 /> */}
+s                {/* <Funfacts2 /> */}
                 {/* <Form3 /> */}
                 <Client2 />
-                <Testimonial2 />
+                <Testimonial3 />
                 <div className="divider" />
                 <Blog4 />
             </Layout>

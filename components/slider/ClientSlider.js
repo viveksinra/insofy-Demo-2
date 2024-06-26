@@ -33,6 +33,11 @@ const styles = `
   }
 
   .img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .img-fluid2 {
     width: 50%;
     height: auto;
     display: block;
@@ -70,7 +75,7 @@ const clients = [
         <div className="slider-wrapper">
           {clients.map((client, index) => (
             <div className="slide" key={index}>
-              <img src={client} className="img-fluid" alt={`Client ${index + 1}`} />
+              <img src={client} className="2" alt={`Client ${index + 1}`} />
             </div>
           ))}
         </div>
