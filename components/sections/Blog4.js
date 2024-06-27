@@ -12,7 +12,7 @@ export default function Blog4() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section_title text-center type_five">
-                                <h4 className="sm_title"> Popular Clients</h4>
+                                <h4 className="sm_title"> Article/ Blog</h4>
                                 <div className="title_whole">
                                     <h2 className="title"> Read Our Latest Articles</h2>
                                 </div>
