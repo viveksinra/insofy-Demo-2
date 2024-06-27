@@ -41,32 +41,32 @@ export default function Client1() {
                             <div className="client_grid">
                                 <div className="client_box">
                                     <Link href="#">
-                                        <img src="/assets/images/client-1.png" className="img-fluid" alt="img" />
+                                        <img src="/assets/images/client/clientimg1.png" className="img-fluid" alt="img" />
                                     </Link>
                                 </div>
                                 <div className="client_box">
                                     <Link href="#">
-                                        <img src="/assets/images/client-2.png" className="img-fluid" alt="img" />
+                                        <img src="/assets/images/client/clientimg2.png" className="img-fluid" alt="img" />
                                     </Link>
                                 </div>
                                 <div className="client_box">
                                     <Link href="#">
-                                        <img src="/assets/images/client-3.png" className="img-fluid" alt="img" />
+                                        <img src="/assets/images/client/clientimg3.png" className="img-fluid" alt="img" />
                                     </Link>
                                 </div>
                                 <div className="client_box">
                                     <Link href="#">
-                                        <img src="/assets/images/client-4.png" className="img-fluid" alt="img" />
+                                        <img src="/assets/images/client/clientimg4.png" className="img-fluid" alt="img" />
                                     </Link>
                                 </div>
                                 <div className="client_box last">
                                     <Link href="#">
-                                        <img src="/assets/images/client-5.png" className="img-fluid" alt="img" />
+                                        <img src="/assets/images/client/clientimg5.png" className="img-fluid" alt="img" />
                                     </Link>
                                 </div>
                                 <div className="client_box last">
                                     <Link href="#">
-                                        <img src="/assets/images/client-6.png" className="img-fluid" alt="img" />
+                                        <img src="/assets/images/client/clientimg6.png" className="img-fluid" alt="img" />
                                     </Link>
                                 </div>
                             </div>

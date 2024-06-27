@@ -47,18 +47,28 @@ const styles = `
 
 
 const clients = [
-    "/assets/images/client-1.png",
-    "/assets/images/client-2.png",
-    "/assets/images/client-3.png",
-    "/assets/images/client-4.png",
-    "/assets/images/client-5.png",
-    "/assets/images/client-6.png",
-    "/assets/images/client-1.png", // Duplicate for seamless looping
-    "/assets/images/client-2.png", // Duplicate for seamless looping
-    "/assets/images/client-3.png", // Duplicate for seamless looping
-    "/assets/images/client-4.png", // Duplicate for seamless looping
-    "/assets/images/client-5.png", // Duplicate for seamless looping
-    "/assets/images/client-6.png"  // Duplicate for seamless looping
+    "/assets/images/client/clientimg1.png",
+    "/assets/images/client/clientimg2.png",
+    "/assets/images/client/clientimg3.png",
+    "/assets/images/client/clientimg4.png",
+    "/assets/images/client/clientimg5.png",
+    "/assets/images/client/clientimg6.png",
+    "/assets/images/client/clientimg7.png",
+    "/assets/images/client/clientimg8.png",
+    "/assets/images/client/clientimg9.png",
+    "/assets/images/client/clientimg10.png",
+    "/assets/images/client/clientimg11.png",
+    "/assets/images/client/clientimg1.png", // Duplicate for seamless looping
+    "/assets/images/client/clientimg2.png", // Duplicate for seamless looping
+    "/assets/images/client/clientimg3.png", // Duplicate for seamless looping
+    "/assets/images/client/clientimg4.png", // Duplicate for seamless looping
+    "/assets/images/client/clientimg5.png", // Duplicate for seamless looping
+    "/assets/images/client/clientimg6.png" , // Duplicate for seamless looping
+    "/assets/images/client/clientimg7.png" , // Duplicate for seamless looping
+    "/assets/images/client/clientimg8.png",  // Duplicate for seamless looping
+    "/assets/images/client/clientimg9.png" , // Duplicate for seamless looping
+    "/assets/images/client/clientimg10.png",  // Duplicate for seamless looping
+    "/assets/images/client/clientimg11.png",  // Duplicate for seamless looping
   ];
   
   export default function ClientSlider() {
