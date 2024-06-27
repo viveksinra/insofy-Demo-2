@@ -8,11 +8,12 @@ export default function Banner3() {
                 <div className="content_box">
                     <div className="large-container">
                         <div className="row align-items-center">
-                        <div className="col-lg-6">
+                        <div className="col-lg-5">
                                 <div className="image">
-                                    <img src="/assets/images/slider/newBan.png" className="img-fluid" alt="img" />
+                                    <img src="/assets/images/slider/newBan.png" style={{ height: '500px' }} className="img-fluid"  alt="img" />
                                 </div>
                             </div>
+                            <div className="col-lg-1"></div>
                             <div className="col-lg-6">
                                 <div className="section_title type_one">
                                     <div className="title_whole">
