@@ -41,7 +41,7 @@ export default function Home1() {
                 {/* <Funfacts1 />
                 <Form1 /> */}
                 <Testimonial2 />
-                <Faq1 />
+                <Faq1 />                
                 <Blog1 />
             </Layout>
         </>

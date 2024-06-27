@@ -62,7 +62,7 @@ export default function Layout({ headerStyle, footerStyle, pageCls, breadcrumbTi
                         {children}
                     </div>
                     {!footerStyle && < Footer1 />}
-                    {footerStyle == 1 ? < Footer1 /> : null}
+                    {footerStyle == 1 ? < Footer6 /> : null}
                     {footerStyle == 2 ? < Footer2 /> : null}
                     {footerStyle == 3 ? < Footer3 /> : null}
                     {footerStyle == 4 ? < Footer4 /> : null}

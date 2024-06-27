@@ -47,7 +47,7 @@ export default function Header1({ handleSearch, handleOptionalPanel, handleMobil
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div className="social-icons">
+                                        {/* <div className="social-icons">
                                             <ul className="d-inline-block">
                                                 <li>
                                                     <Link className="m_icon" href="#">
@@ -70,7 +70,7 @@ export default function Header1({ handleSearch, handleOptionalPanel, handleMobil
                                                     </Link>
                                                 </li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

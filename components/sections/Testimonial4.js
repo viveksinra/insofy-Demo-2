@@ -61,7 +61,7 @@ const testimonials = [
         rating: 5
     },
     {
-        imgSrc: "/assets/images/testimonial/women.png",
+        imgSrc: "/assets/images/testimonial/test-2-min.png",
         name: "Priya Menon",
         position: "POS Certified Partner",
         comment: "Insofy has revolutionised our payment processing with its user-friendly interface and reliable performance.",
@@ -69,7 +69,7 @@ const testimonials = [
         rating: 4
     },
     {
-        imgSrc: "/assets/images/testimonial/test-2-min.png",
+        imgSrc: "/assets/images/testimonial/test-1-min.png",
         name: "Ravi Verma",
         position: "POS Certified Partner",
         comment: "With Insofy, we have seen a significant reduction in transaction errors and an increase in customer satisfaction.",
@@ -77,7 +77,7 @@ const testimonials = [
         rating: 5
     },
     {
-        imgSrc: "/assets/images/testimonial/test-3-min.png",
+        imgSrc: "/assets/images/testimonial/test-4-min.png",
         name: "Suman Rao",
         position: "POS Certified Partner",
         comment: "The efficiency and reliability of Insofy have significantly improved our operational workflow.",
@@ -85,7 +85,7 @@ const testimonials = [
         rating: 5
     },
     {
-        imgSrc: "/assets/images/testimonial/test-1-min.png",
+        imgSrc: "/assets/images/testimonial/test-5-min.png",
         name: "Deepak Kapoor",
         position: "POS Certified Partner",
         comment: "Insofy's seamless integration with our existing systems has saved us a lot of time and effort.",
@@ -93,7 +93,7 @@ const testimonials = [
         rating: 4
     },
     {
-        imgSrc: "/assets/images/testimonial/women.png",
+        imgSrc: "/assets/images/testimonial/test-6-min.png",
         name: "Kiran Desai",
         position: "POS Certified Partner",
         comment: "The customer support provided by Insofy is top-notch. They are always available to help with any issues.",
@@ -101,7 +101,7 @@ const testimonials = [
         rating: 5
     },
     {
-        imgSrc: "/assets/images/testimonial/women.png",
+        imgSrc: "/assets/images/testimonial/test-7-min.png",
         name: "Meera Nair",
         position: "POS Certified Partner",
         comment: "Insofy's advanced analytics tools have given us valuable insights into our sales data.",
@@ -109,7 +109,7 @@ const testimonials = [
         rating: 4
     },
     {
-        imgSrc: "/assets/images/testimonial/test-2-min.png",
+        imgSrc: "/assets/images/testimonial/test-8-min.png",
         name: "Rajiv Agarwal",
         position: "POS Certified Partner",
         comment: "The security features of Insofy have given us peace of mind when handling sensitive financial transactions.",
@@ -117,7 +117,7 @@ const testimonials = [
         rating: 5
     },
     {
-        imgSrc: "/assets/images/testimonial/women.png",
+        imgSrc: "/assets/images/testimonial/test-9-min.png",
         name: "Anita Singh",
         position: "POS Certified Partner",
         comment: "Insofy has made payment processing so much easier and faster for our business.",
@@ -125,14 +125,15 @@ const testimonials = [
         rating: 5
     },
     {
-        imgSrc: "/assets/images/testimonial/test-3-min.png",
+        imgSrc: "/assets/images/testimonial/test-10-min.png",
         name: "Vishal Bhardwaj",
         position: "POS Certified Partner",
         comment: "Insofy's POS system is highly intuitive and easy to use, making it a great choice for our staff.",
         reviewer: "Pooja Sethi",
         rating: 4
     },
-]
+];
+
 
 
 export default function Testimonial4() {
