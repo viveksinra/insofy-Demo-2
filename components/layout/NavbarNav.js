@@ -36,7 +36,7 @@ export default function NavbarNav() {
                             </Link>
                         </li>
                         <li className="menu-item nav-item vankine_menu_image">
-                            <Link href="/home-4" className="nav_link image_big_on_menu_two">
+                            <Link href="/new-4" className="nav_link image_big_on_menu_two">
                                 <span className="img-link">
                                     <img src="/assets/images/demo-1-4-min-scaled.jpg" alt="icon" className="menu_img" />
                                 </span>
