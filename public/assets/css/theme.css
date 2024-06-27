@@ -24,8 +24,10 @@
   --color-set-four-2:#d65501;
   --color-set-four-3:#00868C;
   --color-set-four-4:#181818;
-  --preloader-background-color: #008BF9;
-  --preloader-background-color-2: #0F3567;
+  --preloader-background-color: #9debd7;
+  /* --preloader-background-color: #008BF9; */
+  /* --preloader-background-color-2: #0F3567; */
+  --preloader-background-color-2: #0d9989;;
   --preloader-text-color: #ffffff;
   --color-set-one-bg-1: #EDF7FE;
   --color-set-one-bg-2: rgba(15, 53, 103, 0.1);

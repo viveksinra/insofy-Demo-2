@@ -40,7 +40,7 @@ export default function Service6() {
                             <div className="section_title text-center type_five">
                                 <h4 className="sm_title"> Why Choose Us</h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> Advantages with BimaGuide POSP</h2>
+                                    <h2 className="title"> Advantages with Insofy POSP</h2>
                                 </div>
                             </div>
                             {/*-============spacing==========-*/}
