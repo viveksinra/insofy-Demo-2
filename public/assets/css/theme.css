@@ -4,8 +4,10 @@
 :root {
   --font-family-main: "DM Sans";
   --font-family-text: "DM Sans";
-  --color-set-one-1:#008BF9;
-  --color-set-one-2:#0F3567;
+  /* --color-set-one-1:#008BF9; */
+  --color-set-one-1:#169687;
+  --color-set-one-2:#d65501;;
+  /* --color-set-one-2:#0F3567; */
   --color-set-one-3:#36619A;
   --color-set-one-4:#3B5279;
   --color-set-one-5:#133E76;

@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout"
 import About1 from "@/components/sections/About1"
+import Banner1 from "@/components/sections/Banner1"
 import Blog1 from "@/components/sections/Blog1"
 import Client1 from "@/components/sections/Client1"
 import Faq1 from "@/components/sections/Faq1"
@@ -15,7 +16,7 @@ export default function Home1() {
     return (
         <>
             <Layout headerStyle={1} footerStyle={1}>
-                <Slider1 />
+            <Banner1 />
                 <Service1 />
                 <About1 />
                 <Service2 />
