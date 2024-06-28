@@ -14,7 +14,7 @@ export default function Service6() {
             icon: "flaticon-management",
             title: "Fully Digital Process",
             image: "/assets/images/service/other-ser-2.jpg",
-            description: "No middlemen, no hidden charges - what you deserve is what you get! View & track your payments with your unique ID!",
+            description: "No middlemen, no hidden charges - what you deserve is what you get! View & track your payments.",
             linkText: "Sign Up",
             link: "/service"
         },
@@ -34,7 +34,7 @@ export default function Service6() {
                 {/*-============spacing==========-*/}
                 <div className="pd_top_50" />
                 {/*-============spacing==========-*/}
-                <div className="container">
+                <div className="container custom-container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section_title text-center type_five">
@@ -51,7 +51,9 @@ export default function Service6() {
                     <div className="service_post position-relative">
                         <div className="row">
                             {services.map((service, index) => (
-                                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6" key={index}>
+                                <div 
+                                style={{ marginLeft: index % 2 === 0 ? "100px" : "0px", marginRight: index % 2 === 0 ? "100px" : "0px" }}
+                                className="col-xl-3 col-lg-4 col-md-6 col-sm-6" key={index}>
                                     <div className="service_box type_six hover_1_get borenable color_two trans">
                                         <div className="d-flex trans">
                                             <div className="icon trans">
@@ -90,6 +92,29 @@ export default function Service6() {
                 <div className="pd_bottom_50" />
                 {/*-============spacing==========-*/}
             </section>
+            <style jsx>{`
+                .process-section {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+                .custom-container {
+                    max-width: 100%;
+                    padding: 0 15px;
+                }
+                .process_box {
+                    margin: 0 10px;
+                }
+                @media (min-width: 768px) {
+                    .process-section {
+                        padding-left: 30px;
+                        padding-right: 30px;
+                    }
+                    .custom-container {
+                        max-width: 1680px;
+                        padding: 0 30px;
+                    }
+                }
+            `}</style>
         </>
     );
 }
