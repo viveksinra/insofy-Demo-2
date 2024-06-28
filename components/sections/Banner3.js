@@ -27,9 +27,12 @@ export default function Banner3() {
                                                     <img src="/assets/images/icons/health.png" alt="Health" />
                                                     <p>Health</p>
                                                 </div>
-                                                <div className="service-card">
+                                                <div className="service-card life">
                                                     <img src="/assets/images/icons/life.png" alt="Life" />
                                                     <p>Life</p>
+                                                    <div className="overlay">
+                                                        <p style={{color:"white"}}>Coming Soon</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -85,19 +88,39 @@ export default function Banner3() {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    justify-content: space-between; /* Changed from center to space-between */
+                    justify-content: center;
+                    position: relative;
                 }
                 .service-card img {
                     width: 50px;
                     height: 50px;
                 }
                 .service-card p {
-                    margin: 0; /* Set margin to 0 */
+                    margin: 0;
                     color: #000;
                 }
                 .service-card:hover {
                     transform: translateY(-5px);
                     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+                }
+                .service-card.life:hover .overlay {
+                    display: flex;
+                }
+                .overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    color: white;
+                    display: none;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 8px;
+                    transition: display 0.2s;
+                    font-weight: bold;
+                    font-size: 1.2em;
                 }
             `}</style>
         </>
