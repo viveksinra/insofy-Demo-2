@@ -28,7 +28,7 @@ export default function Home4() {
 
     return (
         <>
-            <Layout headerStyle={4} footerStyle={4}>
+            <Layout headerStyle={4} footerStyle={2}>
                 <Banner3 />
                 <Service6 />
                 {/* <About3 /> */}
@@ -39,7 +39,11 @@ export default function Home4() {
 s                {/* <Funfacts2 /> */}
                 {/* <Form3 /> */}
                 <Client2 />
+                {/* <Testimonial1 /> */}
+                {/* <Testimonial2 /> */}
+                {/* <Testimonial3 /> */}
                 <Testimonial4 />
+                {/* <Testimonial5 /> */}
                 <Faq1 />                
 
                 <div className="divider" />

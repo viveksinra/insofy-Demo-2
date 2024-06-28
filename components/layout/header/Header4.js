@@ -4,12 +4,12 @@ import NavbarNav from '../NavbarNav'
 export default function Header4({ handleSearch, handleOptionalPanel, handleMobileMenu }) {
     return (
         <>
-            <div className="header_area " id="header_contents">
+            <div className="header_area" id="header_contents">
                 <header className="header-area header-style-1 htype_three position_absolute bg_transparent">
                     <div className="main_header_content default_header">
                         <div className="large-container">
                             <div className="row align-items-center">
-                                <div className="col-xl-2 col-lg-12 col-md-5 col-sm-5 col-xs-5">
+                                <div className="col-xl-2 col-lg-12 col-md-5 col-sm-5 col-xs-5" style={{marginLeft:"20px"}}>
                                     <div className="logobox">
                                         <Link href="/new-4" className="logo navbar-brand">
                                             <img src="/assets/images/Logo-green.png" alt="Insofy" className="logo_default" />
@@ -17,10 +17,18 @@ export default function Header4({ handleSearch, handleOptionalPanel, handleMobil
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-9 col-md-0 col-sm-0 col-xs-0 column_menu">
-                                    <div className="navbar_content d-flex align-items-center">
+                                    <div className="navbar_content d-flex align-items-center navbar_content_right">
                                         <NavbarNav />
                                         <div className="search search-toggler" onClick={handleSearch}>
                                             <i className="fi-rs-search" />
+                                        </div>
+                                        <div className="button">
+                                            <Link href="#" className="theme_btn">
+                                                Get A Quote
+                                                <svg width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                </svg>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -54,7 +62,18 @@ export default function Header4({ handleSearch, handleOptionalPanel, handleMobil
                     </div>
                 </header>
             </div>
+            <style jsx>{`
+                .navbar_content_right {
+                    display: flex;
+                    justify-content: flex-end !important;
+                }
 
+                @media (min-width: 992px) {
+                    .navbar_content_right {
+                        justify-content: flex-end !important;
+                    }
+                }
+            `}</style>
         </>
     )
 }

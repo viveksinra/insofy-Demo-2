@@ -8,7 +8,7 @@ export default function Footer2({ }) {
                     <img src="/assets/images/shape/wave-pattern-2.png" className="img-fluid" alt="img" />
                 </div>
                 {/*-============spacing==========-*/}
-                <div className="pd_top_100" />
+                <div className="pd_top_20" />
                 {/*-============spacing==========-*/}
                 <section className="md_content position-relative z_99">
                     <div className="auto-container">
@@ -21,7 +21,7 @@ export default function Footer2({ }) {
                                         </Link>
                                     </div>
                                     {/*-============spacing==========-*/}
-                                    <div className="pd_bottom_35" />
+                                    <div className="pd_bottom_15" />
                                     {/*-============spacing==========-*/}
                                     <div className="position-relative color_white">
                                         Sed ut perspiciatis  omnis  laudantium natus errors voluptatem accusantium
@@ -69,7 +69,7 @@ export default function Footer2({ }) {
                                             <div className="fwidget_title">
                                                 <h2 className="title color_white"> Services </h2>
                                                 {/*-============spacing==========-*/}
-                                                <div className="pd_bottom_25" />
+                                                <div className="pd_bottom_5" />
                                                 {/*-============spacing==========-*/}
                                             </div>
                                             <div className="position-relative">
@@ -267,7 +267,7 @@ export default function Footer2({ }) {
                         </div>
                     </div>
                     {/*-============spacing==========-*/}
-                    <div className="pd_bottom_50" />
+                    <div className="pd_bottom_10" />
                     {/*-============spacing==========-*/}
                 </section>
                 <section className="mottom_content  position-relative z_99">
@@ -309,7 +309,7 @@ export default function Footer2({ }) {
                     </div>
                 </section>
                 {/*-============spacing==========-*/}
-                <div className="pd_bottom_50" />
+                <div className="pd_bottom_10" />
                 {/*-============spacing==========-*/}
                 <div className="patter_bottom">
                     <img src="/assets/images/shape/wave-pattern-1.png" className="img-fluid" alt="img" />

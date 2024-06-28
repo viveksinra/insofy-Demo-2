@@ -50,7 +50,8 @@ export default function Layout({ headerStyle, footerStyle, pageCls, breadcrumbTi
                 {headerStyle == 1 ? <Header1 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
                 {headerStyle == 2 ? <Header2 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
                 {headerStyle == 3 ? <Header3 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
-                {headerStyle == 4 ? <Header4 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
+                {/* {headerStyle == 4 ? <Header4 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null} */}
+                {headerStyle == 4 ? <StickyHeader scroll={true} handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
                 {headerStyle == 5 ? <Header5 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
                 {headerStyle == 6 ? <Header6 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
 
