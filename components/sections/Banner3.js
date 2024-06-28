@@ -58,7 +58,7 @@ export default function Banner3() {
                                         </form>
                                     </div>
                                 </div>
-                                <div className="review_box d-flex align-items-center">
+                                {/* <div className="review_box d-flex align-items-center">
                                     <div className="rimage">
                                         <img src="/assets/images/slider/review-girls.png" className="img-fluid" alt="img" />
                                     </div>
@@ -68,7 +68,7 @@ export default function Banner3() {
                                         </div>
                                         <p>4.8 of 5 <small><i className="fa fa-star" /> <i className="fa fa-star" /> <i className="fa fa-star" /> <i className="fa fa-star" /> <i className="fa fa-star" /></small></p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

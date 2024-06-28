@@ -20,16 +20,12 @@ export default function Process2() {
             description: "Make more money per insurance policy! Too good to be true? Speak to our experts to know how!",
             imgSrc: "/assets/images/process/cus-commi.png",
         },
-
     ];
 
     return (
         <>
-            <section className="process-section">
-                {/*-============spacing==========-*/}
-                <div className="pd_top_60" />
-                {/*-============spacing==========-*/}
-                <div className="container">
+            <section style={{marginTop:"25px"}} className="process-section">
+                <div className="container custom-container">
                     <div className="row">
                         <div className="col-lg-7 m-auto">
                             <div className="section_title text-center type_four">
@@ -40,12 +36,11 @@ export default function Process2() {
                             </div>
                         </div>
                     </div>
-                    {/*-============spacing==========-*/}
-                    <div className="pd_bottom_40" />
-                    {/*-============spacing==========-*/}
-                    <div className="row">
+                    <div className="row justify-content-center">
                         {steps.map((step, index) => (
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12" key={index}>
+                            <div 
+                            style={{ marginLeft: index % 2 === 0 ? "100px" : "0px", marginRight: index % 2 === 0 ? "100px" : "0px" }}
+                             className="col-lg-3 col-md-6 col-sm-6 col-xs-12 my-3" key={index}>
                                 <div className="process_box type_two type_three color_two hover_1_get">
                                     <div className="image_box hover_1">
                                         <img src={step.imgSrc} alt="img" className="img-fluid" />
@@ -69,10 +64,30 @@ export default function Process2() {
                         ))}
                     </div>
                 </div>
-                {/*-============spacing==========-*/}
-                <div className="pd_bottom_40" />
-                {/*-============spacing==========-*/}
             </section>
+            <style jsx>{`
+                .process-section {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+                .custom-container {
+                    max-width: 100%;
+                    padding: 0 15px;
+                }
+                .process_box {
+                    margin: 0 10px;
+                }
+                @media (min-width: 768px) {
+                    .process-section {
+                        padding-left: 30px;
+                        padding-right: 30px;
+                    }
+                    .custom-container {
+                        max-width: 1680px;
+                        padding: 0 30px;
+                    }
+                }
+            `}</style>
         </>
     );
 }

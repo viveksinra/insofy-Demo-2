@@ -34,20 +34,22 @@ export default function Home4() {
                 {/* <About3 /> */}
                 {/* <Service7 /> */}
                 {/* <Content5 /> */}
-                <Process1 />
-                {/* <Process2 /> */}
+                {/* <Process1 /> */}
+                <Process2 />
 s                {/* <Funfacts2 /> */}
                 {/* <Form3 /> */}
-                <Client2 />
                 {/* <Testimonial1 /> */}
                 {/* <Testimonial2 /> */}
                 {/* <Testimonial3 /> */}
-                <Testimonial4 />
                 {/* <Testimonial5 /> */}
-                <Faq1 />                
+                <Faq1 />  
+
+                <Testimonial4 />
 
                 <div className="divider" />
                 <Blog4 />
+                <Client2 />
+
             </Layout>
         </>
     )

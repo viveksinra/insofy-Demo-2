@@ -5,7 +5,7 @@ export default function StickyHeader({ scroll, handleSearch, handleOptionalPanel
     return (
         <>
             <div className={`sticky_header_area sticky_header_content ${scroll ? "fixed-header" : ""}`}>
-                <header className="header-area header-style-1 htype_three">
+                <header className="header-area header-style-1 htype_three red-border">
                     <div className="main_header_content default_header">
                         <div className="large-container">
                             <div className="row align-items-center">
@@ -47,6 +47,11 @@ export default function StickyHeader({ scroll, handleSearch, handleOptionalPanel
                     </div>
                 </header>
             </div>
+            <style jsx>{`
+                // .red-border {
+                //     border-botto: 10px solid red;
+                // }
+            `}</style>
         </>
     );
 }
