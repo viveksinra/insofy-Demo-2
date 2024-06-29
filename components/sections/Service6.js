@@ -34,7 +34,7 @@ export default function Service6() {
                 {/*-============spacing==========-*/}
                 <div className="pd_top_50" />
                 {/*-============spacing==========-*/}
-                <div className="container custom-container">
+                <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section_title text-center type_five">

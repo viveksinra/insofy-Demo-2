@@ -25,7 +25,7 @@ export default function Process2() {
     return (
         <>
             <section style={{marginTop:"25px"}} className="process-section">
-                <div className="container custom-container">
+                <div className="container">
                     <div className="row">
                         <div className="col-lg-7 m-auto">
                             <div className="section_title text-center type_four">

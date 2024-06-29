@@ -3,7 +3,7 @@ export default function Banner3() {
         <>
             <section className="single_banner style_one bg_light_2" style={{ marginTop: "-50px", marginBottom: "-60px",}}>
                 <div className="content_box">
-                    <div className="large-container">
+                    <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-5">
                                 <div className="image">

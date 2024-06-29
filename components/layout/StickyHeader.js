@@ -7,7 +7,7 @@ export default function StickyHeader({ scroll, handleSearch, handleOptionalPanel
             <div className={`sticky_header_area sticky_header_content ${scroll ? "fixed-header" : ""}`}>
                 <header className="header-area header-style-1 htype_three red-border">
                     <div className="main_header_content default_header">
-                        <div className="large-container">
+                        <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-xl-2 col-lg-12 col-md-5 col-sm-5 col-xs-5">
                                     <div className="logobox">
