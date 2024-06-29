@@ -52,8 +52,8 @@ export default function Service6() {
                         <div className="row">
                             {services.map((service, index) => (
                                 <div 
-                                style={{ marginLeft: index % 2 === 0 ? "100px" : "0px", marginRight: index % 2 === 0 ? "100px" : "0px" }}
-                                className="col-xl-3 col-lg-4 col-md-6 col-sm-6" key={index}>
+                                // style={{ marginLeft: index % 2 === 0 ? "100px" : "0px", marginRight: index % 2 === 0 ? "100px" : "0px" }}
+                                className="col-xl-4 col-lg-4 col-md-6 col-sm-6" key={index}>
                                     <div className="service_box type_six hover_1_get borenable color_two trans">
                                         <div className="d-flex trans">
                                             <div className="icon trans">
@@ -109,10 +109,10 @@ export default function Service6() {
                         padding-left: 30px;
                         padding-right: 30px;
                     }
-                    .custom-container {
-                        max-width: 1680px;
-                        padding: 0 30px;
-                    }
+                    // .custom-container {
+                    //     max-width: 1680px;
+                    //     padding: 0 30px;
+                    // }
                 }
             `}</style>
         </>
