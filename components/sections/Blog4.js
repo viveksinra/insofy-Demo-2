@@ -14,7 +14,7 @@ export default function Blog4() {
                             <div className="section_title text-center type_five">
                                 <h4 className="sm_title"> Article/ Blog</h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> Read Our Latest Articles</h2>
+                                    <h2 style={{color:"#148776"}} className="title"> Read Our Latest Articles</h2>
                                 </div>
                             </div>
                         </div>

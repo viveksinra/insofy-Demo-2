@@ -29,7 +29,7 @@ export default function Process2() {
                     <div className="row">
                         <div className="col-lg-7 m-auto">
                             <div className="section_title text-center type_four">
-                                <h4 className="sm_title">Become A POSP Partner</h4>
+                                <h4  style={{color:"#e9510e"}} className="sm_title">Become A POSP Partner</h4>
                                 <div className="title_whole">
                                     <h2  style={{color:"#148776"}} className="title">How It Works</h2>
                                 </div>
