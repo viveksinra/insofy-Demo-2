@@ -125,7 +125,7 @@ export default function Blog2() {
                                                 Bradley R Grady
                                             </div>
                                             <h4 className="title_22">
-                                                <Link href="/blog">Erving
+                                                <Link href="/blog">Earning
                                                     the interests of our clients</Link></h4>
                                             <p className="descs">
                                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem…

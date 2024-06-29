@@ -207,7 +207,7 @@ export default function Footer5({ }) {
                                             <div className="content">
                                                 <h4 className="title_18">
                                                     <Link href="/blog" className="color_white">
-                                                        Erving the interests of our clients
+                                                        Earning the interests of our clients
                                                     </Link>
                                                 </h4>
                                                 <p className="color_white"> Bradley R Grady </p>

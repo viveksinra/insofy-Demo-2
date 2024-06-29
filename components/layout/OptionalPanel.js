@@ -68,7 +68,7 @@ export default function OptionalPanel({ isOptionalPanel, handleOptionalPanel }) 
                                         <SwiperSlide className="modal_post_grid">
                                             <Link href="/blog-details">
                                                 <img src="/assets/images/blog/blog-7-min.png" className="main_img  img-fluid" alt="img" />
-                                                <h2 className="tit_ho title_no_a_20">Erving the interests of our clients
+                                                <h2 className="tit_ho title_no_a_20">Earning the interests of our clients
                                                 </h2>
                                             </Link>
                                         </SwiperSlide>

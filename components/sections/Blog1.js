@@ -138,7 +138,7 @@ export default function Blog1() {
                                             </div>
                                             <h4 className="title_22">
                                                 <Link href="/blog">
-                                                    Erving the interests of our clients
+                                                    Earning the interests of our clients
                                                 </Link>
                                             </h4>
                                             <p className="descs">

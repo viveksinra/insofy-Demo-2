@@ -103,7 +103,7 @@ export default function Blog4() {
                                                 <img src="/assets/images/gavatar.png" className="img-fluid" alt="gavatar" />
                                                 Bradley R Grady</div>
                                             <h4 className="title_22">
-                                                <Link href="/blog-details">Erving
+                                                <Link href="/blog-details">Earning
                                                     the interests of our clients</Link></h4>
                                             <div className="bottm_contet d-flex align-items-center">
                                                 <Link href="/blog-details" className="theme_btn">Read More <svg width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -93,7 +93,7 @@ export default function Blog() {
                                                         </Link>
                                                         <div className="content">
                                                             <h4 className="title_18">
-                                                                <Link href="/blog-details">Erving the interests of our clients</Link>
+                                                                <Link href="/blog-details">Earning the interests of our clients</Link>
                                                             </h4>
                                                             <span className="date_tm">
                                                                 <i className="fi-rr-calendar" />
