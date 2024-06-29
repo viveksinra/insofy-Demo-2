@@ -36,7 +36,7 @@ export default function Home4() {
                 {/* <Content5 /> */}
                 {/* <Process1 /> */}
                 <Process2 />
-s                {/* <Funfacts2 /> */}
+                {/* <Funfacts2 /> */}
                 {/* <Form3 /> */}
                 {/* <Testimonial1 /> */}
                 {/* <Testimonial2 /> */}

@@ -14,7 +14,7 @@ export default function Service6() {
             icon: "flaticon-management",
             title: "Fully Digital Process",
             image: "/assets/images/service/other-ser-2.jpg",
-            description: "No middlemen, no hidden charges - what you deserve is what you get! View & track your payments.",
+            description: "No middlemen, no hidden charges - what you deserve is what you get! ",
             linkText: "Sign Up",
             link: "/service"
         },
@@ -22,7 +22,7 @@ export default function Service6() {
             icon: "flaticon-business-trip",
             title: "Dedicated Support",
             image: "/assets/images/service/other-ser-3.jpg",
-            description: "Stuck somewhere? No worries! Our dedicated support team is there to help you-wherever, whenever!",
+            description: "Stuck somewhere? No worries! Our dedicated support team is there to help you-wherever",
             linkText: "Register With Us",
             link: "/service"
         }
@@ -52,20 +52,20 @@ export default function Service6() {
                         <div className="row">
                             {services.map((service, index) => (
                                 <div 
-                                // style={{ marginLeft: index % 2 === 0 ? "100px" : "0px", marginRight: index % 2 === 0 ? "100px" : "0px" }}
-                                className="col-xl-4 col-lg-4 col-md-6 col-sm-6" key={index}>
+                                style={{width:"28%",  marginLeft: index % 2 === 0 ? "50px" : "0px", marginRight: index % 2 === 0 ? "50px" : "0px" }}
+                                className="" key={index}>
                                     <div className="service_box type_six hover_1_get borenable color_two trans">
-                                        <div className="d-flex trans">
+                                        {/* <div className="d-flex trans">
                                             <div className="icon trans">
                                                 <i className={` ${service.icon} trans`} />
                                             </div>
                                             <div className="title_22">
                                                 <Link href={service.link}>{service.title}</Link>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <Link href={service.link} className="img_bx">
                                             <div className="image trans hover_1">
-                                                <img src={service.image} className="img-fluid" alt="service" />
+                                                <img src={service.image} style={{ height: '400px', width:"100%" }} className="img-fluid" alt="service" />
                                                 <div className="oh ho_1" />
                                                 <div className="oh ho_2" />
                                                 <div className="oh ho_3" />
@@ -73,7 +73,8 @@ export default function Service6() {
                                             </div>
                                         </Link>
                                         <div className="content">
-                                            <p className="trans">{service.description}</p>
+                                        <h5>{service.title}</h5>
+                                            <p style={{color:"#0243ab"}} className="trans">{service.description}</p>
                                             <Link href={service.link} className="theme_btn">
                                                 {service.linkText} 
                                                 <svg width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,7 +1,7 @@
 export default function Banner3() {
     return (
         <>
-            <section className="single_banner style_one bg_light_2" style={{ marginTop: "-50px", marginBottom: "-60px",}}>
+            <section className="single_banner style_one bg_light_2" style={{ marginTop: "0px", marginBottom: "-60px",}}>
                 <div className="content_box">
                     <div className="container">
                         <div className="row align-items-center">
@@ -15,7 +15,7 @@ export default function Banner3() {
                             <div className="col-lg-6">
                                 <div className="section_title type_one">
                                     <div className="title_whole">
-                                    <h2 className="title" style={{ color: '#158777' }}>
+                                    <h2 className="title" style={{ fontSize:"20", color: '#158777' }}>
                                             Partner With Us,
                                             Grow Your Insurance
                                             Business Today
