@@ -7,7 +7,7 @@ export default function Banner3() {
                         <div className="row align-items-center">
                             <div className="col-lg-5">
                                 <div className="image">
-                                    <img src="/assets/images/slider/newBan.png" style={{ height: '500px' }} className="img-fluid" alt="img" />
+                                    <img src="/assets/images/slider/newBan.png" style={{ height: '400px', width:"100%" }} className="img-fluid" alt="img" />
                                     
                                 </div>
                             </div>
