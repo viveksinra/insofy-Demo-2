@@ -1,21 +1,21 @@
 export default function Banner3() {
     return (
         <>
-            <section className="single_banner style_one bg_light_2" style={{ marginTop: "0px", marginBottom: "-60px",}}>
+            <section className="single_banner style_one bg_light_2" style={{ marginTop: "0px", marginBottom: "-60px", }}>
                 <div className="content_box">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-5">
+                            <div className="col-lg-6">
                                 <div className="image">
-                                    <img src="/assets/images/slider/newBan.png" style={{ height: '400px', width:"100%" }} className="img-fluid" alt="img" />
-                                    
+                                    <img src="/assets/images/slider/newBan.png"
+                                        className="img-fluid" alt="img"
+                                    />
                                 </div>
                             </div>
-                            <div className="col-lg-1"></div>
                             <div className="col-lg-6">
                                 <div className="section_title type_one">
                                     <div className="title_whole">
-                                    <h2 className="title" style={{ fontSize:"20", color: '#158777' }}>
+                                        <h2 className="title" style={{ color: '#158777' }}>
                                             Partner With Us,
                                             Grow Your Insurance
                                             Business Today
@@ -30,46 +30,35 @@ export default function Banner3() {
                                         </form>
                                     </div>
                                 </div>
-                                {/* <div className="review_box d-flex align-items-center">
-                                    <div className="rimage">
-                                        <img src="/assets/images/slider/review-girls.png" className="img-fluid" alt="img" />
-                                    </div>
-                                    <div className="section_title type_one">
-                                        <div className="title_whole">
-                                            <h2 className="title"> Excellent 12,534+ reviews</h2>
-                                        </div>
-                                        <p>4.8 of 5 <small><i className="fa fa-star" /> <i className="fa fa-star" /> <i className="fa fa-star" /> <i className="fa fa-star" /> <i className="fa fa-star" /></small></p>
-                                    </div>
-                                </div> */}
                                 <div className="row">
-                                        <div className="col-12" style={{  padding: '10px', borderRadius: '8px' }}>
-                                            <div className="d-flex justify-content-around">
-                                                <div className="service-card" >
-                                                    <img src="/assets/images/icons/car.png" alt="Car" />
-                                                    <p>Car</p>
-                                                </div>
-                                                <div className="service-card">
-                                                    <img src="/assets/images/icons/bike.png" alt="Bike" />
-                                                    <p>Bike</p>
-                                                </div>
-                                                <div className="service-card">
-                                                    <img src="/assets/images/icons/commercial.png" alt="Commercial" />
-                                                    <p>Commercial</p>
-                                                </div>
-                                                <div className="service-card">
-                                                    <img src="/assets/images/icons/health.png" alt="Health" />
-                                                    <p>Health</p>
-                                                </div>
-                                                <div className="service-card life">
-                                                    <img src="/assets/images/icons/life.png" alt="Life" />
-                                                    <p>Life</p>
-                                                    <div className="overlay">
-                                                        <p style={{color:"white"}}>Coming Soon</p>
-                                                    </div>
+                                    <div className="col-12" style={{ padding: '10px', borderRadius: '8px' }}>
+                                        <div className="d-flex justify-content-around">
+                                            <div className="service-card">
+                                                <img src="/assets/images/icons/car.png" alt="Car" />
+                                                <p>Car</p>
+                                            </div>
+                                            <div className="service-card">
+                                                <img src="/assets/images/icons/bike.png" alt="Bike" />
+                                                <p>Bike</p>
+                                            </div>
+                                            <div className="service-card">
+                                                <img src="/assets/images/icons/commercial.png" alt="Commercial" />
+                                                <p>Commercial</p>
+                                            </div>
+                                            <div className="service-card">
+                                                <img src="/assets/images/icons/health.png" alt="Health" />
+                                                <p>Health</p>
+                                            </div>
+                                            <div className="service-card life">
+                                                <img src="/assets/images/icons/life.png" alt="Life" />
+                                                <p>Life</p>
+                                                <div className="overlay">
+                                                    <p style={{ color: "white" }}>Coming Soon</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -78,6 +67,12 @@ export default function Banner3() {
 
             {/* Inline CSS for the new component */}
             <style jsx>{`
+                .image img {
+                    width: 100%;
+                    height: auto;
+                    margin-top: -100px;
+                }
+
                 .service-card {
                     text-align: center;
                     padding: 10px;
@@ -124,6 +119,34 @@ export default function Banner3() {
                     transition: display 0.2s;
                     font-weight: bold;
                     font-size: 1.2em;
+                }
+
+                @media (min-width: 768px) {
+                    .service-card {
+                        width: 120px;
+                        height: 120px;
+                    }
+                    .service-card img {
+                        width: 90px;
+                        height: 100px;
+                    }
+                    .service-card p {
+                        font-size: 1em;
+                    }
+                }
+
+                @media (min-width: 992px) {
+                    .service-card {
+                        width: 120px;
+                        height: 120px;
+                    }
+                    .service-card img {
+                        width: 100px;
+                        height: 110px;
+                    }
+                    .service-card p {
+                        font-size: 1.2em;
+                    }
                 }
             `}</style>
         </>
