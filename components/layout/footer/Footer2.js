@@ -11,7 +11,7 @@ export default function Footer2({ }) {
                 <div className="pd_top_20" />
                 {/*-============spacing==========-*/}
                 <section className="md_content position-relative z_99">
-                    <div className="auto-container">
+                    <div className="container">
                         <div className="row">
                             <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12 pd_right_70">
                                 <div className="footer_widgets_box pd_bottom_30">
@@ -271,7 +271,7 @@ export default function Footer2({ }) {
                     {/*-============spacing==========-*/}
                 </section>
                 <section className="mottom_content  position-relative z_99">
-                    <div className="auto-container">
+                    <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 col-sm-12">
                                 <div className="position-relative">

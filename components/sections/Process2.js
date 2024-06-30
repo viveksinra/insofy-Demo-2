@@ -39,8 +39,7 @@ export default function Process2() {
                     <div className="row justify-content-center">
                         {steps.map((step, index) => (
                             <div 
-                            // style={{ marginLeft: index % 2 === 0 ? "100px" : "0px", marginRight: index % 2 === 0 ? "100px" : "0px" }}
-                             className="col-lg-4 col-md-6 col-sm-6 col-xs-12 my-3" key={index}>
+                             className={`col-lg-4 col-md-6 col-sm-6 col-xs-12 my-3 service-box-${index}`} key={index}>
                                 <div className="process_box type_two type_three color_two hover_1_get">
                                     <div className="image_box hover_1">
                                         <img src={step.imgSrc} alt="img" className="img-fluid" />
@@ -66,27 +65,30 @@ export default function Process2() {
                 </div>
             </section>
             <style jsx>{`
-                .process-section {
-                    padding-left: 15px;
-                    padding-right: 15px;
-                }
-                .custom-container {
-                    max-width: 100%;
-                    padding: 0 15px;
-                }
-                .process_box {
-                    margin: 0 10px;
-                }
-                // @media (min-width: 768px) {
-                //     .process-section {
-                //         padding-left: 30px;
-                //         padding-right: 30px;
-                //     }
-                //     .custom-container {
-                //         max-width: 1680px;
-                //         padding: 0 30px;
-                //     }
+                // .service-box-0 {
+                //     background-color: red;
                 // }
+                // .service-box-1 {
+                //     background-color: blue;
+                // }
+                // .service-box-2 {
+                //     background-color: red;
+                // }
+
+                @media (min-width: 992px) {
+                    .service-box-0 {
+                        padding-left: 0px;
+                        padding-right: 50px;
+                    }
+                    .service-box-1 {
+                        padding-left: 25px;
+                        padding-right: 25px;
+                    }
+                    .service-box-2 {
+                        padding-left: 50px;
+                        padding-right: -10px;
+                    }
+                }
             `}</style>
         </>
     );
