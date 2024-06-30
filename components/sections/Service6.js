@@ -14,7 +14,7 @@ export default function Service6() {
             icon: "flaticon-management",
             title: "Fully Digital Process",
             image: "/assets/images/service/other-ser-2.jpg",
-            description: "No middlemen, no hidden charges - what you deserve is what you get! ",
+            description: "No middlemen, no hidden charges - what you deserve is what you get! help you-wherever",
             linkText: "Sign Up",
             link: "/service"
         },
@@ -51,18 +51,11 @@ export default function Service6() {
                     <div className="service_post position-relative">
                         <div className="row">
                             {services.map((service, index) => (
-                                <div 
-                                style={{width:"28%",  marginLeft: index % 2 === 0 ? "50px" : "0px", marginRight: index % 2 === 0 ? "50px" : "0px" }}
-                                className="" key={index}>
+                                <div
+                                    className={`col-lg-4 col-md-6 col-sm-6 col-xs-12 my-3 service-box-${index}`}
+                                    key={index}
+                                >
                                     <div className="service_box type_six hover_1_get borenable color_two trans">
-                                        {/* <div className="d-flex trans">
-                                            <div className="icon trans">
-                                                <i className={` ${service.icon} trans`} />
-                                            </div>
-                                            <div className="title_22">
-                                                <Link href={service.link}>{service.title}</Link>
-                                            </div>
-                                        </div> */}
                                         <Link href={service.link} className="img_bx">
                                             <div className="image trans hover_1">
                                                 <img src={service.image} style={{ height: '400px', width:"100%" }} className="img-fluid" alt="service" />
@@ -73,7 +66,7 @@ export default function Service6() {
                                             </div>
                                         </Link>
                                         <div className="content">
-                                        <h5>{service.title}</h5>
+                                            <h5>{service.title}</h5>
                                             <p style={{color:"#0243ab"}} className="trans">{service.description}</p>
                                             <Link href={service.link} className="theme_btn">
                                                 {service.linkText} 
@@ -94,26 +87,21 @@ export default function Service6() {
                 {/*-============spacing==========-*/}
             </section>
             <style jsx>{`
-                .process-section {
-                    padding-left: 15px;
-                    padding-right: 15px;
-                }
-                .custom-container {
-                    max-width: 100%;
-                    padding: 0 15px;
-                }
-                .process_box {
-                    margin: 0 10px;
-                }
-                @media (min-width: 768px) {
-                    .process-section {
+   
+
+                @media (min-width: 992px) {
+                    .service-box-0 {
+                        padding-left: 0px;
+                        padding-right: 60px;
+                    }
+                    .service-box-1 {
                         padding-left: 30px;
                         padding-right: 30px;
                     }
-                    // .custom-container {
-                    //     max-width: 1680px;
-                    //     padding: 0 30px;
-                    // }
+                    .service-box-2 {
+                        padding-left: 60px;
+                        padding-right: 0px;
+                    }
                 }
             `}</style>
         </>
