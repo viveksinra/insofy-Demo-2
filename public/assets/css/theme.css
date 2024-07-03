@@ -5642,10 +5642,10 @@ body .service_post.style_one .owl-carousel .owl-dots {
   height: 45px;
   line-height: 45px;
   border-radius: 7px;
-  background: var(--color-white);
+  background: var(--color-set-one-1);
   text-align: center;
   font-size: 24px;
-  color: var(--color-set-one-1);
+  color:  var(--color-white);
   display: block;
   transform: rotate(0deg);
 }

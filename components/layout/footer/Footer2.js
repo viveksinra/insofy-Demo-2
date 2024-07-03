@@ -62,7 +62,14 @@ export default function Footer2({ }) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-5 col-md-6 col-sm-6 col-xs-12">
+                            <div 
+                             style={{
+                                backgroundImage: "url('/assets/images/onlyLogo70.png')",
+                                backgroundPosition: 'center',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundSize: 'contain',
+                              }} 
+                            className="col-lg-5 col-md-6 col-sm-6 col-xs-12">
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="footer_widgets_box pd_bottom_30">
