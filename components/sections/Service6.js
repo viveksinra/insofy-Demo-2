@@ -5,7 +5,7 @@ export default function Service6() {
         {
             icon: "flaticon-salary",
             title: "Timely Payouts",
-            image: "/assets/images/service/other-ser-1.png",
+            image: "/assets/images/service/clock_1.jpg",
             description: "Say goodbye to long waits for payments on policy issuance! With us, get TIMELY PAYOUT",
             linkText: "Start Earning Now",
             link: "/service"
@@ -13,7 +13,7 @@ export default function Service6() {
         {
             icon: "flaticon-management",
             title: "Fully Digital Process",
-            image: "/assets/images/service/other-ser-2.jpg",
+            image: "/assets/images/service/OnlinePaymentByBarsrsind.jpg",
             description: "No middlemen, no hidden charges - what you deserve is what you get! help you-wherever",
             linkText: "Sign Up",
             link: "/service"
@@ -21,7 +21,7 @@ export default function Service6() {
         {
             icon: "flaticon-business-trip",
             title: "Dedicated Support",
-            image: "/assets/images/service/other-ser-3.jpg",
+            image: "/assets/images/service/other-ser-3.png",
             description: "Stuck somewhere? No worries! Our dedicated support team is there to help you-wherever",
             linkText: "Register With Us",
             link: "/service"

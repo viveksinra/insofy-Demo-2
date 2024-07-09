@@ -6,7 +6,7 @@ export default function Process2() {
             step: "Step 01",
             title: "Partner with us",
             description: "Fill up the simple one-time form and you are set to go with the best earnings & benefits on offer!",
-            imgSrc: "/assets/images/process/cus-pro1.png",
+            imgSrc: "/assets/images/process/23.png",
         },
         {
             step: "Step 02",
