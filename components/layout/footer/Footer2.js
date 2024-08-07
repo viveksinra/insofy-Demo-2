@@ -64,7 +64,7 @@ export default function Footer2({ }) {
                             </div>
                             <div 
                              style={{
-                                backgroundImage: "url('/assets/images/onlyLogo70.png')",
+                                backgroundImage: "url('/assets/images/onlyLogo80.png')",
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
                                 backgroundSize: 'contain',

@@ -9896,6 +9896,7 @@ body .slick-dots li:last-child {
 .header-area.header-style-1 .top_bar .top_md {
   position: relative;
   padding-left: 80px;
+  
 }
 .header-area.header-style-1 .top_bar .top_md .text {
   font-family: var(--font-family-text);

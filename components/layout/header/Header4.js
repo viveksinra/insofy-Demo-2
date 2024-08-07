@@ -4,15 +4,15 @@ import NavbarNav from '../NavbarNav'
 export default function Header4({ handleSearch, handleOptionalPanel, handleMobileMenu }) {
     return (
         <>
-            <div className="header_area" id="header_contents">
+            <div className="header_area" id="header_contents" >
                 <header className="header-area header-style-1 htype_three position_absolute bg_transparent">
-                    <div className="main_header_content default_header">
+                    <div  className="main_header_content default_header">
                         <div className="large-container">
                             <div className="row align-items-center">
                                 <div className="col-xl-2 col-lg-12 col-md-5 col-sm-5 col-xs-5" style={{marginLeft:"20px"}}>
-                                    <div className="logobox">
+                                    <div className="logobox" >
                                         <Link href="/new-4" className="logo navbar-brand">
-                                            <img src="/assets/images/Logo-green.png" alt="Insofy" className="logo_default" />
+                                            <img src="/assets/images/Logo-green.png" alt="Insofy" style={{height:"120%"}} width="100px" height="100px" className="logo_default" />
                                         </Link>
                                     </div>
                                 </div>
